@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 
-import router from "./Route/book.route.js"; // Ensure the correct import path and file extension
+import router from "./route/book.route.js"; // Ensure the correct import path and file extension
 import userRoute from "./route/user.route.js";
 import cors from "cors";
 
